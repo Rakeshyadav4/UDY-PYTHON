@@ -1,0 +1,40 @@
+names = [1, 2, 'rahul', 4, 5] # list data type
+print(names[1])
+print(names[2])
+print(names[1:4])
+print(names)
+names.insert(3, 'Yadav')  # Inserted values in after rahul
+print(names)
+names.append('END')  # inserted values at last
+print(names)
+names[2] = "Rakesh"  # Updated
+print(names)
+del names[1]  # Delete
+print(names)
+names[0] = 'My name is'
+names[4] = 'and learning Python'
+del names[5]
+names.append('today')
+print(names)
+del names [3]
+print(names)
+del names[2]
+print(names)
+del names[3]
+print(names)
+rock = (7, "jan", 1980)  # tuple data type
+print(rock)
+print(rock[2])
+dictionary = {1: 5, 2: "some", 'look': 5.4, 3: 'test'}  # dictionary data type
+print(dictionary)
+print(dictionary[2])
+print(dictionary['look'])
+name = {}
+name['first name'] = "python"
+name['Last name'] = 'selenium'
+name["Age"] = '11years'
+print(name)
+print(name['Age'])
+
+
+
